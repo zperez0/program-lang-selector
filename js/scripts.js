@@ -9,28 +9,27 @@ $(document).ready(function() {
 
   
     $(".fullName").text(fullName1Input);
-  
-    if (videoGame === "videoGame1" && cityWork == "cityWork1" && mythCreature === "mythCreature1" && codeExp === "codeExp1" && islandItem === "islandItem1") {
     $(".result").show();
+    $("form#selector").hide();
+  
+    if (videoGame === "yes" && cityWork == "seattle" && mythCreature === "dragon" && codeExp === "tons" && islandItem === "gameBoy") {
     $("#python").show();
     $("#javaScript").hide();
     $("#ruby").hide();
     
     } else if 
       (videoGame === "yes" && cityWork === "newYork" && mythCreature === "unicorn" && codeExp === "some" && islandItem === "book") {
-        $(".result").show();
         $("#python").hide();
         $("#javaScript").show();
         $("#ruby").hide();
         
     } else { 
     (videoGame === "no" && cityWork == "remote" && mythCreature === "neither" && codeExp === "newbie" && islandItem === "dvd")
-      $(".result").show();
       $("#python").hide();
       $("#javaScript").hide();
       $("#ruby").show();
       
-      $("form#selector").hide();
+    
       event.preventDefault();
     }
   });
