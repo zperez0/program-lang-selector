@@ -92,7 +92,8 @@ console.log("cityWork");
       $("#cSharp").toggle().hide();
       $("#java").toggle().hide();
       $("#swift").toggle().hide();
+      $(".reset").slideDown();
       document.getElementById("selector").reset();
-
+      
     });
   });
