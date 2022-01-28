@@ -1,9 +1,8 @@
-.result {
-display: none;
-}
-
 body {
-margin: 20%;
+background-color: #ffffff;
+transition: .5s all ease;
+color:#000000;
+margin: 50px;
 }
 
 body.dark { 
@@ -18,7 +17,6 @@ body.dark {
   width: 60px;
   height: 34px;
 }
-
 .switch input { 
   opacity: 0;
   width: 0;
@@ -37,7 +35,7 @@ body.dark {
   transition: .4s;
 }
 
-.slider::before {
+.slider:before {
   position: absolute;
   content: "";
   height: 26px;
@@ -89,6 +87,6 @@ padding: 20px;
   text-decoration: underline;
 }
 
-body {
-  margin: 50px;
-}
+.result {
+  display: none;
+  }

@@ -83,7 +83,9 @@ console.log("cityWork");
     }
   });
 
-
+  $(document).on("change",".switch",function() {
+    $("body").toggleClass("dark");
+  });
     // $(".reset").click(function() {
     //   $("form#selector").toggle().show();
     //   $("#python").toggle().hide();
