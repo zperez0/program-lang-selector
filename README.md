@@ -16,7 +16,7 @@ _ _
 
 ## Description
 
-_By creating this questionire I am demonstrating my knowledge of using branching to retrun certain results, using form to gather the user inputs, and implementing jQuery's methods to show and hide the results after the form has been submitted. User's will enter their name, fill out the questionaire, once they have submitted, a new page will appear with their name and a brief explantaion of their results._
+_By creating this questionnaire, I am demonstrating my knowledge of using branching to return certain results, using form to gather the user inputs, and implementing jQuery's methods to show and hide the results after the form has been submitted. Users will enter their name, fill out the questionnaire, and once they have submitted it, a new page will appear with their name and a brief explanation of their results._
 
 ## Setup/Installation Requirements
 
