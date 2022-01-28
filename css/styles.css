@@ -70,12 +70,10 @@ display: block;
 padding: 30px;
 }
 
-#pythonImg, #rubyImg, #cImg, #javaImg, #jsImg {
+#pythonImg, #rubyImg, #cImg, #javaImg, #jsImg, #swiftImg {
 padding: 10px;
-}
-
-#swiftImg {
-padding: 20px;
+width: 40px;
+height: auto;
 }
 
 .reset {
