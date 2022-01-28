@@ -25,15 +25,16 @@
       <!-- question1 -->
 
       <label>Do you enjoy video games?</label>
-      <div class="form-check">
-        <input class="form-check-input" type="radio" name="videoGame" id="videoGame1" value="yes" checked>
-        <label class="form-check-label" for="yesRadio1">
-          Yes
-        </label>
+      <div class="radio">
+      <label>
+        <input type="radio" name="videoGame" value="yes" checked>
+        Yes
+      </label>
       </div>
-      <div class="form-check">
-        <input class="form-check-input" type="radio" name="videoGame" id="videoGame2" value="no">
-        <label class="form-check-label" for="noRadio2">
+
+      <div class="radio">
+        <label>
+          <input type="radio" name="videoGame" value="no">
           No
         </label>
       </div>
@@ -42,21 +43,24 @@
       <!-- question2 -->
 
       <label>What city would you like to work in?</label>
-      <div class="form-check">
-        <input class="form-check-input" type="radio" name="cityWork" id="cityWork1" value="seattle" checked>
-        <label class="form-check-label" for="seattleRadio1">
+
+      <div class="radio">
+        <label>
+          <input type="radio" name="cityWork" value="seattle" checked>
           Seattle
         </label>
       </div>
-      <div class="form-check">
-        <input class="form-check-input" type="radio" name="cityWork" id="cityWork2" value="newYork">
-        <label class="form-check-label" for="newYorkRadio2">
+
+      <div class="radio">
+        <label>
+        <input type="radio" name="cityWork" value="newYork">
           New York
         </label>
       </div>
-      <div class="form-check">
-        <input class="form-check-input" type="radio" name="cityWork" id="cityWork3" value="remote" >
-        <label class="form-check-label" for="remoteRadio3">
+      
+      <div class="radio">
+        <label>
+        <input  type="radio" name="cityWork" value="remote">
           I want to work remotely!
         </label>
       </div>
@@ -65,21 +69,23 @@
       <!-- question3 -->
 
       <label>Which mythical creature do you prefer?</label>
-      <div class="form-check">
-        <input class="form-check-input" type="radio" name="mythCreature" id="mythCreature1" value="dragon" checked>
-        <label class="form-check-label" for="dragonRadio1">
+      <div class="radio">
+        <label>
+        <input  type="radio" name="mythCreature" value="dragon" checked>
           Dragon
         </label>
       </div>
-      <div class="form-check">
-        <input class="form-check-input" type="radio" name="mythCreature" id="mythCreature2" value="unicorn">
-        <label class="form-check-label" for="unicornRadio2">
+
+      <div class="radio">
+        <label>
+        <input type="radio" name="mythCreature" value="unicorn">
           Unicorn
         </label>
       </div>
-      <div class="form-check">
-        <input class="form-check-input" type="radio" name="mythCreature" id="mythCreature3" value="remote" >
-        <label class="form-check-label" for="neitherRadio3">
+
+      <div class="radio">
+        <label>
+        <input  type="radio" name="mythCreature" value="neither">
           Neither, I'm not a nerd. 
         </label>
       </div>
@@ -88,21 +94,24 @@
       <!-- question4 -->
 
       <label>What is your current level of coding experience?</label>
-      <div class="form-check">
-        <input class="form-check-input" type="radio" name="codeExp" id="codeExp1" value="tons" checked>
-        <label class="form-check-label" for="tonsRadio1">
+
+      <div class="radio">
+        <label>
+        <input type="radio" name="codeExp" value="tons" checked>
           Tons, I'm a coding writing machine. 
         </label>
       </div>
-      <div class="form-check">
-        <input class="form-check-input" type="radio" name="codeExp" id="codeExp2" value="some">
-        <label class="form-check-label" for="someRadio2">
+
+      <div class="radio">
+        <label>
+        <input type="radio" name="codeExp"  value="some">
           Some, I've created a few projects.
         </label>
       </div>
-      <div class="form-check">
-        <input class="form-check-input" type="radio" name="codeExp" id="codeExp3" value="newbie" >
-        <label class="form-check-label" for="newbieRadio3">
+
+      <div class="radio">
+        <label>
+        <input type="radio" name="codeExp" value="newbie" >
           Newbie! what's that? 
         </label>
       </div>
@@ -112,22 +121,25 @@
 
 
       <label>If you were marooned on an island which item would you bring?</label>
-      <div class="form-check">
-        <input class="form-check-input" type="radio" name="islandItem" id="islandItem1" value="gameBoy" checked>
-        <label class="form-check-label" for="gameBoyRadio1">
+
+      <div class="radio">
+        <label>
+        <input type="radio" name="islandItem" value="gameBoy" checked>
           Gameboy
         </label>
       </div>
-      <div class="form-check">
-        <input class="form-check-input" type="radio" name="islandItem" id="islandItem2" value="book">
-        <label class="form-check-label" for="bookRadio2">
+
+      <div class="radio">
+        <label>
+        <input type="radio" name="islandItem" value="book">
           Book
         </label>
       </div>
-      <div class="form-check">
-        <input class="form-check-input" type="radio" name="islandItem" id="islandItem3" value="dvd" >
-        <label class="form-check-label" for="dvdRadio3">
-          Dvd
+
+      <div class="radio">
+        <label>
+        <input type="radio" name="islandItem" value="dvd" >
+          dvd
         </label>
       </div>
 
@@ -189,6 +201,63 @@
          <div id="rubyImg">
           <img src="img/ruby.jpg">
         </div>
+      </div>
+      
+
+        <!-- c# -->
+        <div id="cSharp">
+          <h2><span class="fullName"></span>, your programming language is C#!</h2>
+  
+          <p>Check out some of these resources:</p>
+           <ul>
+            <li><a href="https://dotnet.microsoft.com/en-us/languages/csharp">C# offical website</a></li>
+            <li><a href="https://www.codecademy.com/learn/learn-c-sharp">C#: codeacademy</a></li>
+           </ul>
+  
+           <div id="cImg">
+            <img src="img/cSharp.jpg">
+          </div>
+        </div>
+        
+
+
+        <!-- java -->
+
+        <div id="java">
+          <h2><span class="fullName"></span>, your programming language is Java!</h2>
+  
+          <p>Check out some of these resources:</p>
+           <ul>
+            <li><a href="https://www.java.com/en/">Java offical website</a></li>
+            <li><a href="https://www.w3schools.com/java/">Java: w3schools</a></li>
+           </ul>
+  
+           <div id="javaImg">
+            <img src="img/java.jpg">
+          </div>
+        </div>
+        
+
+        <!-- swift -->
+
+        <div id="swift">
+          <h2><span class="fullName"></span>, your programming language is Swift!</h2>
+  
+          <p>Check out some of these resources:</p>
+           <ul>
+            <li><a href="https://www.swift.org/">Swift offical website</a></li>
+            <li><a href="https://www.codecademy.com/catalog/language/swift">Swift: codeacademy</a></li>
+           </ul>
+  
+           <div id="swiftImg">
+            <img src="img/swift.jpg">
+          </div>
+        </div>
+        
+
+        <!-- reset -->
+        <div>
+        <span class="reset" type="reset">Click here to return to the quiz!</span>
       </div>
 
     </div>
