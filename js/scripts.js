@@ -84,15 +84,15 @@ console.log("cityWork");
   });
 
 
-    $(".reset").click(function() {
-      $("form#selector").toggle().show();
-      $("#python").toggle().hide();
-      $("#javaScript").toggle().hide();
-      $("#ruby").toggle().hide();
-      $("#cSharp").toggle().hide();
-      $("#java").toggle().hide();
-      $("#swift").toggle().hide();
-      document.getElementById("selector").reset();
+    // $(".reset").click(function() {
+    //   $("form#selector").toggle().show();
+    //   $("#python").toggle().hide();
+    //   $("#javaScript").toggle().hide();
+    //   $("#ruby").toggle().hide();
+    //   $("#cSharp").toggle().hide();
+    //   $("#java").toggle().hide();
+    //   $("#swift").toggle().hide();
+    //   document.getElementById("selector")
       
     });
-  });
+  // });
