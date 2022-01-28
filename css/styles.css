@@ -3,10 +3,23 @@ display: none;
 }
 
 body {
-  background-color: ;
+margin: 20%;
 }
 
-.reset{
+#python, #ruby, #csharp, #java, #swift, #javaScript {
+display: block;
+padding: 30px;
+}
+
+#pythonImg, #rubyImg, #cImg, #javaImg, #jsImg {
+padding: 10px;
+}
+
+#swiftImg {
+padding: 20px;
+}
+
+.reset {
   cursor: pointer;
   color: #0088cc;
 }
