@@ -1,5 +1,4 @@
 $(document).ready(function() {
-
   $("form#selector").submit(function(event) {
     event.preventDefault();
 
@@ -10,13 +9,9 @@ $(document).ready(function() {
         const codeExp = $("input:radio[name=codeExp]:checked").val();
         const islandItem = $("input:radio[name=islandItem]:checked").val();
 
-
-
         $(".fullName").text(fullName1Input);
         $(".result").show();
         $("form#selector").hide();
-
-console.log("cityWork");
 
      if (videoGame === "yes" && cityWork == "seattle" && mythCreature === "dragon" && codeExp === "tons" && islandItem === "gameBoy") {
       $("#python").show();
@@ -79,12 +74,11 @@ console.log("cityWork");
       $("#java").hide();
       $("#swift").show();
       
-
     }
   });
 
   $(document).on("change",".switch",function() {
     $("body").toggleClass("dark");
-    
+
     });
   });
