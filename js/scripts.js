@@ -23,14 +23,11 @@ $(document).ready(function() {
       $("#python").show();
     } else if (videoGame === "yes" && cityWork === "newYork" && mythCreature === "unicorn" && codeExp === "some" && islandItem === "book") {
       $("#javaScript").show();
-    } else if (
-      videoGame === "no" && cityWork == "remote" && mythCreature === "neither" && codeExp === "newbie" && islandItem === "dvd") {
+    } else if (videoGame === "no" && cityWork == "remote" && mythCreature === "neither" && codeExp === "newbie" && islandItem === "dvd") {
       $("#ruby").show();
-    } else if (
-      videoGame === "no" && cityWork == "seattle" && mythCreature === "unicorn" && codeExp === "some" && islandItem === "gameBoy") {
+    } else if (videoGame === "no" && cityWork == "seattle" && mythCreature === "unicorn" && codeExp === "some" && islandItem === "gameBoy") {
       $("#cSharp").show();
-    } else if (
-      videoGame === "yes" && cityWork == "remote" && mythCreature === "neither" && codeExp === "tons" && islandItem === "dvd") {
+    } else if (videoGame === "yes" && cityWork == "remote" && mythCreature === "neither" && codeExp === "tons" && islandItem === "dvd") {
       $("#java").show();
     } else {
       $("#swift").show();
